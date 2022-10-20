@@ -14,10 +14,10 @@ app.use('/api', authRouter);
 
 
 const startApp = async () => {
-  try {
-    app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
-  } catch (e) {
-    console.log(e);
-  }
+    try {
+        app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+    } catch (e) {
+        console.log(e);
+    }
 }
 startApp()
