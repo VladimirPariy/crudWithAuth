@@ -1,6 +1,6 @@
 import express from 'express';
-import {userRouter} from "./app/userRouter.js";
-import {authRouter} from "./app/authRouter.js";
+import {usersRouter} from "./app/users/usersRouter.js";
+import {authRouter} from "./app/auth/authRouter.js";
 
 const PORT = process.env.PORT || 3000;
 
@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.use('/api', userRouter);
+app.use('/api', usersRouter);
 app.use('/api', authRouter);
 
 
