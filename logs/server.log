@@ -1,0 +1,10 @@
+info: Oct-21-2022 14:16:44: 	Server started and running on http://localhost:3000
+info: Oct-21-2022 14:16:59: 	User with name user3 and email user3@gmail.com successfully registered
+info: Oct-21-2022 14:17:14: 	User with name undefined or email user3@gmail.com authorization
+error: Oct-21-2022 14:17:47: 	User with user4 and email undefined does not inputted password
+error: Oct-21-2022 14:18:02: 	User with user3 and email user3@gmail.com already exists
+info: Oct-21-2022 14:18:39: 	Server started and running on http://localhost:3000
+error: Oct-21-2022 14:18:41: 	Cannot destructure property 'name' of 'req.bod' as it is undefined.
+info: Oct-21-2022 14:18:52: 	Server started and running on http://localhost:3000
+error: Oct-21-2022 14:19:24: 	User with name undefined and email user3@gmail.co is not found
+error: Oct-21-2022 14:19:40: 	User with name undefined and email user3@gmail.com inputted invalid password
