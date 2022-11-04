@@ -8,3 +8,95 @@ error: Oct-21-2022 14:18:41: 	Cannot destructure property 'name' of 'req.bod' as
 info: Oct-21-2022 14:18:52: 	Server started and running on http://localhost:3000
 error: Oct-21-2022 14:19:24: 	User with name undefined and email user3@gmail.co is not found
 error: Oct-21-2022 14:19:40: 	User with name undefined and email user3@gmail.com inputted invalid password
+info: Nov-02-2022 22:35:34: 	Server started and running on http://localhost:3000
+info: Nov-02-2022 22:59:48: 	Server started and running on http://localhost:3000
+info: Nov-02-2022 23:01:18: 	Server started and running on http://localhost:3000
+info: Nov-03-2022 00:04:20: 	Server started and running on http://localhost:3000
+info: Nov-03-2022 00:05:51: 	Server started and running on http://localhost:3000
+info: Nov-03-2022 00:08:51: 	Server started and running on http://localhost:3000
+info: Nov-03-2022 00:24:54: 	Server started and running on http://localhost:3000
+info: Nov-03-2022 00:25:26: 	Server started and running on http://localhost:3000
+info: Nov-03-2022 00:28:09: 	Server started and running on http://localhost:3000
+info: Nov-03-2022 01:05:40: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 11:27:04: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 11:28:22: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 11:29:37: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 11:30:18: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 11:34:59: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:08:37: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:11:17: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:14:04: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:15:20: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:16:49: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:21:31: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:23:23: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:23:59: 	User with undefined and email 11111@111.com does not inputted password
+error: Nov-04-2022 12:24:12: 	User with undefined and email 11111@111.com does not inputted password
+info: Nov-04-2022 12:24:57: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:25:01: 	User with undefined and email 11111@111.com does not inputted password
+info: Nov-04-2022 12:26:28: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:26:31: 	User with 11111 and email 11111@111.com does not inputted password
+info: Nov-04-2022 12:26:52: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:26:55: 	select * from `users` where `name` = '11111' or `email` = '11111@111.com' - Unknown column 'name' in 'where clause'
+info: Nov-04-2022 12:31:00: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:31:04: 	insert into `users` (`email`, `login`, `password`) values (DEFAULT, '11111', DEFAULT), ('11111@111.com', DEFAULT, DEFAULT), (DEFAULT, DEFAULT, '$2a$07$pHxAzjLnCz3MHWmotgrT9.j3yj.QnSwDjFi2/NcUP3PmtqAAn1hJ.') - Field 'email' doesn't have a default value
+info: Nov-04-2022 12:35:13: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:37:28: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:37:33: 	insert into `users` (`email`, `login`, `password`) values ('11111@111.com', '11111', '$2a$07$4yfEnaSQsRzS5cF1UMZo6uKHR1D5CkqqzeUQtuCUJBtAfUMYByayC') - Data too long for column 'password' at row 1
+error: Nov-04-2022 12:38:07: 	insert into `users` (`email`, `login`, `password`) values ('11111@111.com', '11111', '$2a$07$aTZ5RltPmrKe3AEJvnPlpOBaQ0xrXGE0wxrFX0K5Op9429Fac2vCS') - Data too long for column 'password' at row 1
+error: Nov-04-2022 12:38:10: 	insert into `users` (`email`, `login`, `password`) values ('11111@111.com', '11111', '$2a$07$l9jhG1y4QQWqXCnYkx6ETOTZjXqvSrVYe0yzgaUEPGyhdjV/4I6tO') - Data too long for column 'password' at row 1
+error: Nov-04-2022 12:38:13: 	insert into `users` (`email`, `login`, `password`) values ('11111@111.com', '11111', '$2a$07$X6lR.HKkHyQt/CKUr4qRWeEI5LKEVGQ7xGzMP2Ohyc3whQtzWlKb.') - Data too long for column 'password' at row 1
+error: Nov-04-2022 12:39:40: 	insert into `users` (`email`, `login`, `password`) values ('11111@111.com', '11111', '$2a$07$Al9zC.MqMrUsbvSOR5amEOj.PQNNZFZ/LbW99BRKbEdTRoFN4nBuS') - Data too long for column 'password' at row 1
+info: Nov-04-2022 12:40:30: 	User with name 11111 and email 11111@111.com successfully registered
+info: Nov-04-2022 12:41:36: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:41:41: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:42:40: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:42:45: 	User with 11111 and email 11111@111.com already exists
+info: Nov-04-2022 12:46:24: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:48:11: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 12:49:21: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 12:49:30: 	Undefined binding(s) detected when compiling SELECT. Undefined column(s): [email] query: select * from `users` where `login` = ? or `email` = ?
+info: Nov-04-2022 13:22:38: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:22:44: 	User with name 111111 and email 111111@111.com successfully registered
+error: Nov-04-2022 13:24:52: 	Undefined binding(s) detected when compiling SELECT. Undefined column(s): [email] query: select * from `users` where `login` = ? or `email` = ?
+info: Nov-04-2022 13:28:08: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:32:03: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 13:32:09: 	Illegal arguments: string, undefined
+info: Nov-04-2022 13:32:58: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:33:25: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 13:33:28: 	Illegal arguments: string, undefined
+error: Nov-04-2022 13:33:35: 	Illegal arguments: string, undefined
+info: Nov-04-2022 13:33:53: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 13:33:55: 	Illegal arguments: string, undefined
+info: Nov-04-2022 13:34:22: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:34:26: 	User with name 11111 or email undefined authorization
+info: Nov-04-2022 13:34:56: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:35:15: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:36:53: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:38:00: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:38:11: 	User with name 1111111 and email 1111111@111.com successfully registered
+info: Nov-04-2022 13:38:19: 	User with name 1111111 or email undefined authorization
+error: Nov-04-2022 13:39:16: 	User with undefined and email undefined does not inputted password
+info: Nov-04-2022 13:40:13: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 13:40:40: 	User with undefined and email undefined does not inputted password
+info: Nov-04-2022 13:44:08: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 13:44:11: 	User failed authorization
+info: Nov-04-2022 13:44:51: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 13:44:56: 	User failed authorization
+error: Nov-04-2022 13:45:35: 	User failed authorization
+error: Nov-04-2022 13:45:38: 	User failed authorization
+error: Nov-04-2022 13:45:44: 	User failed authorization
+info: Nov-04-2022 13:46:08: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:46:12: 	User with name undefined or email 1111111@111.com authorization
+error: Nov-04-2022 13:46:29: 	User failed authorization
+error: Nov-04-2022 13:46:54: 	User failed authorization
+error: Nov-04-2022 13:46:55: 	User failed authorization
+info: Nov-04-2022 13:49:32: 	Server started and running on http://localhost:3000
+error: Nov-04-2022 13:49:34: 	User failed authorization
+info: Nov-04-2022 13:51:04: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 13:51:07: 	User with name 1111111 or email undefined authorization
+error: Nov-04-2022 13:51:17: 	User failed authorization
+error: Nov-04-2022 13:51:31: 	User failed authorization
+error: Nov-04-2022 13:51:33: 	User failed authorization
+info: Nov-04-2022 14:40:11: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 14:40:36: 	Server started and running on http://localhost:3000
