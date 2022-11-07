@@ -142,3 +142,20 @@ info: Nov-07-2022 10:45:41: 	Server started and running on http://localhost:3000
 info: Nov-07-2022 10:46:07: 	Server started and running on http://localhost:3000
 info: Nov-07-2022 10:47:04: 	Server started and running on http://localhost:3000
 info: Nov-07-2022 10:48:35: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 16:55:13: 	Server started and running on http://localhost:3000
+error: Nov-07-2022 16:55:25: 	User with name vova and email undefined is not found
+info: Nov-07-2022 16:56:03: 	User with name test2 or email undefined authorization
+info: Nov-07-2022 16:56:58: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 16:57:48: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 16:59:33: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 17:04:59: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 17:07:37: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 17:21:32: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 17:56:13: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 17:57:42: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 17:58:13: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 17:59:57: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 18:00:21: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 18:00:43: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 18:01:46: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 18:07:07: 	Server started and running on http://localhost:3000

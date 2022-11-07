@@ -6,23 +6,26 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "migrate": "knex migrate:latest --knexfile src/DB/knexfile.cjs",
+    "seed": "knex seed:run --knexfile src/DB/knexfile.cjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@bull-board/api": "^4.6.2",
+    "@bull-board/express": "^4.6.2",
     "bcryptjs": "^2.4.3",
+    "bull": "^4.10.1",
     "express": "^4.18.2",
     "express-validator": "^6.14.2",
     "jsonwebtoken": "^8.5.1",
     "knex": "^2.3.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
-    "winston": "^3.8.2",
-    "@bull-board/api": "^4.6.2",
-    "@bull-board/express": "^4.6.2",
-    "bull": "^4.10.1",
-    "redis": "^4.4.0"
+    "objection": "^3.0.1",
+    "redis": "^4.4.0",
+    "winston": "^3.8.2"
   }
 }
