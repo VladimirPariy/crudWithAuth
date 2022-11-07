@@ -100,3 +100,45 @@ error: Nov-04-2022 13:51:31: 	User failed authorization
 error: Nov-04-2022 13:51:33: 	User failed authorization
 info: Nov-04-2022 14:40:11: 	Server started and running on http://localhost:3000
 info: Nov-04-2022 14:40:36: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 14:45:11: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 14:45:16: 	User with name undefined or email 1111111@111.com authorization
+info: Nov-04-2022 14:45:42: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:24:19: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:25:02: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:27:28: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:27:33: 	User with name undefined or email 1111111@111.com authorization
+info: Nov-04-2022 16:31:32: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:33:18: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:33:39: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:34:29: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:36:45: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:38:02: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:38:45: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 16:45:37: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:07:48: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:08:56: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:09:28: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:11:39: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:13:32: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:15:21: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:16:35: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:18:22: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 17:19:50: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 18:27:33: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 18:28:19: 	User with name 111 or email undefined authorization
+info: Nov-04-2022 18:31:38: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 18:35:39: 	Server started and running on http://localhost:3000
+info: Nov-04-2022 20:48:19: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:27:26: 	Server started and running on http://localhost:3000
+error: Nov-07-2022 10:27:50: 	User with name 111 and email undefined is not found
+info: Nov-07-2022 10:28:01: 	User with name vova or email undefined authorization
+info: Nov-07-2022 10:31:58: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:32:17: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:33:00: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:37:10: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:43:47: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:45:13: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:45:41: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:46:07: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:47:04: 	Server started and running on http://localhost:3000
+info: Nov-07-2022 10:48:35: 	Server started and running on http://localhost:3000

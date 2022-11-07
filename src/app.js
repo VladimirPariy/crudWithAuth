@@ -22,7 +22,6 @@ const startApp = async () => {
 		app.listen(PORT);
 		logger.info(`Server started and running on http://${HOST}:${PORT}`)
 	} catch (e) {
-		console.log(e);
 		logger.error(e.message)
 	}
 }

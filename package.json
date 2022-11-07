@@ -19,6 +19,10 @@
     "knex": "^2.3.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
-    "winston": "^3.8.2"
+    "winston": "^3.8.2",
+    "@bull-board/api": "^4.6.2",
+    "@bull-board/express": "^4.6.2",
+    "bull": "^4.10.1",
+    "redis": "^4.4.0"
   }
 }
