@@ -1,0 +1,1 @@
+import {Model} from 'objection';class UsersModel extends Model {  static get tableName() {    return 'users_knex';  }  static get idColumn() {    return '_id';  }}export {UsersModel}
