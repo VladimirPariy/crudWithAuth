@@ -159,3 +159,8 @@ info: Nov-07-2022 18:00:21: 	Server started and running on http://localhost:3000
 info: Nov-07-2022 18:00:43: 	Server started and running on http://localhost:3000
 info: Nov-07-2022 18:01:46: 	Server started and running on http://localhost:3000
 info: Nov-07-2022 18:07:07: 	Server started and running on http://localhost:3000
+info: Nov-08-2022 00:54:35: 	Server started and running on http://localhost:3000
+info: Nov-08-2022 00:54:37: 	User with name 111 and email 111@111.com successfully registered
+info: Nov-08-2022 00:54:49: 	User with name 111 or email undefined authorization
+info: Nov-08-2022 00:56:49: 	Server started and running on http://localhost:3000
+info: Nov-08-2022 00:58:25: 	Server started and running on http://localhost:3000
