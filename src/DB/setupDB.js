@@ -1,1 +1,0 @@
-import knex from 'knex';import knexfile from './knexfile.cjs';import {Model} from 'objection';export const setupDB = () => {  const db = knex(knexfile.development)  Model.knex(db)}
