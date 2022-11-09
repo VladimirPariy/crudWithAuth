@@ -2,13 +2,13 @@
   "name": "crud-app-for-users-with-auth",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "migrate": "knex migrate:latest --knexfile src/DB/knexfile.cjs",
-    "seed": "knex seed:run --knexfile src/DB/knexfile.cjs"
+    "start": "node dist/app.js",
+    "dev": "nodemon dist/app.js",
+    "migrate": "knex migrate:latest --knexfile dist/DB/knexfile.js",
+    "seed": "knex seed:run --knexfile dist/DB/knexfile.js"
   },
   "keywords": [],
   "author": "",
@@ -23,9 +23,18 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^2.3.0",
     "mysql2": "^2.3.3",
-    "nodemon": "^2.0.20",
     "objection": "^3.0.1",
     "redis": "^4.4.0",
     "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/bull": "^4.10.0",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "nodemon": "^2.0.20"
   }
 }

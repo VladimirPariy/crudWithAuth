@@ -164,3 +164,35 @@ info: Nov-08-2022 00:54:37: 	User with name 111 and email 111@111.com successful
 info: Nov-08-2022 00:54:49: 	User with name 111 or email undefined authorization
 info: Nov-08-2022 00:56:49: 	Server started and running on http://localhost:3000
 info: Nov-08-2022 00:58:25: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 13:49:16: 	Server started and running on http://localhost:3000
+error: Nov-09-2022 13:55:32: 	User with 111 and email 111@111.com already exists
+info: Nov-09-2022 13:55:47: 	User with name test and email test@test.com successfully registered
+info: Nov-09-2022 13:57:48: 	User with name test or email undefined authorization
+info: Nov-09-2022 15:12:17: 	User with name test or email undefined authorization
+info: Nov-09-2022 15:12:31: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 15:13:46: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 15:13:59: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 15:14:03: 	User with name test or email undefined authorization
+error: Nov-09-2022 15:57:39: 	User with test1 and email undefined does not inputted password
+info: Nov-09-2022 15:57:58: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 15:59:10: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 15:59:45: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:01:33: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:05:25: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:06:07: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:14:00: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:15:44: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:17:30: 	User with name test1 and email test1@test.com successfully registered
+info: Nov-09-2022 16:17:36: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:17:47: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:18:41: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:18:45: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:19:10: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:22:38: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:22:41: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:22:42: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:22:43: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:22:44: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:23:13: 	Server started and running on http://localhost:3000
+info: Nov-09-2022 16:23:19: 	User with name test1 or email undefined authorization
+info: Nov-09-2022 16:52:15: 	Server started and running on http://localhost:3000
