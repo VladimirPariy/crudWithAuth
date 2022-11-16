@@ -5,8 +5,6 @@ services:
     build: ./
     depends_on:
       - mysql
-    ports:
-      - '3000:3000'
     restart: always
   mysql:
     image: mysql
@@ -30,7 +28,7 @@ services:
   webserver:
     image: nginx:alpine
     container_name: webserver
-    restart: unless-stopped
+    restart: always
     volumes:
       - ./nginx/conf.d/:/etc/nginx/conf.d/
     ports:
