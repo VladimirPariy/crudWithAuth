@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  backend:
+    build: ./
+    depends_on:
+      - mysql
+    ports:
+      - '3000:3000'
+    restart: always
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: users_db
+    restart: always
+  migration:
+    build:
+      context: ./
+    command:
+      [
+        "npm",
+        "run",
+        "migrate"
+      ]
+    depends_on:
+      - mysql
+      - backend
+    restart: on-failure
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    restart: unless-stopped
+    volumes:
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    ports:
+      - "80:80"
+    depends_on:
+      - mysql
+      - backend
+      - migration

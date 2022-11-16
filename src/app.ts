@@ -18,6 +18,8 @@ app.use(express.urlencoded({extended: true}));
 app.use('/api', usersRouter);
 app.use('/api', authRouter);
 
+const version = '1.0.0';
+app.get('/', (req, res) => res.send({ version }));
 
 (async () => {
 	try {

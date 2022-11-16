@@ -24,6 +24,8 @@ app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use('/api', users_router_1.usersRouter);
 app.use('/api', auth_router_1.authRouter);
+const version = '1.0.0';
+app.get('/', (req, res) => res.send({ version }));
 (() => __awaiter(void 0, void 0, void 0, function* () {
     try {
         app.listen(PORT);

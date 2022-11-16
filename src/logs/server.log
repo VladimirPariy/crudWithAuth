@@ -196,3 +196,9 @@ info: Nov-09-2022 16:22:44: 	User with name test1 or email undefined authorizati
 info: Nov-09-2022 16:23:13: 	Server started and running on http://localhost:3000
 info: Nov-09-2022 16:23:19: 	User with name test1 or email undefined authorization
 info: Nov-09-2022 16:52:15: 	Server started and running on http://localhost:3000
+info: Nov-15-2022 15:49:03: 	Server started and running on http://localhost:3000
+info: Nov-16-2022 09:27:44: 	Server started and running on http://localhost:3000
+info: Nov-16-2022 09:29:03: 	Server started and running on http://localhost:3000
+error: Nov-16-2022 09:29:37: 	Access denied for user 'root'@'localhost'
+info: Nov-16-2022 09:30:33: 	Server started and running on http://localhost:3000
+error: Nov-16-2022 09:30:36: 	Access denied for user 'root'@'localhost'

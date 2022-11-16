@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/app.js",
-    "dev": "nodemon dist/app.js",
+    "dev": "nodemon --exitcrash dist/app.js",
     "migrate": "knex migrate:latest --knexfile dist/DB/knexfile.js",
     "seed": "knex seed:run --knexfile dist/DB/knexfile.js"
   },
