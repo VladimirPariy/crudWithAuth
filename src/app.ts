@@ -4,7 +4,7 @@ import {authRouter} from "./app/auth/auth.router";
 import {logger} from './app/logging';
 import {setupDB} from "./DB/setupDB";
 
-import os from "os";
+// import os from "os";
 
 
 const PORT = process.env.PORT || 3000;
@@ -20,8 +20,8 @@ app.use(express.urlencoded({extended: true}));
 app.use('/api', usersRouter);
 app.use('/api', authRouter);
 
-const version = '1.0.0';
-app.get('/', (req, res) => res.send(os.hostname()));
+const version = '1.0.1.1';
+app.get('/', (req, res) => res.send({ version }));
 
 (async () => {
 	try {

@@ -202,3 +202,28 @@ info: Nov-16-2022 09:29:03: 	Server started and running on http://localhost:3000
 error: Nov-16-2022 09:29:37: 	Access denied for user 'root'@'localhost'
 info: Nov-16-2022 09:30:33: 	Server started and running on http://localhost:3000
 error: Nov-16-2022 09:30:36: 	Access denied for user 'root'@'localhost'
+info: Nov-17-2022 09:51:44: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 09:53:22: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 10:04:09: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 10:13:35: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 10:22:28: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 10:27:33: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 11:56:30: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 11:57:59: 	User with name 111 and email 111@test.com successfully registered
+info: Nov-17-2022 11:58:10: 	User with name 111 or email undefined authorization
+info: Nov-17-2022 11:58:59: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 11:59:07: 	User with name 111 or email undefined authorization
+info: Nov-17-2022 11:59:41: 	User with name test and email test@test.com successfully registered
+info: Nov-17-2022 12:00:32: 	Server started and running on http://localhost:3000
+error: Nov-17-2022 12:00:56: 	getaddrinfo ENOTFOUND mysql
+error: Nov-17-2022 12:01:06: 	connect ECONNREFUSED 172.28.0.2:3306
+info: Nov-17-2022 12:02:10: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:05:15: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:52:10: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:54:38: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:54:38: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:54:38: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:57:24: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:57:24: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:57:24: 	Server started and running on http://localhost:3000
+info: Nov-17-2022 12:57:49: 	User with name 111 or email undefined authorization

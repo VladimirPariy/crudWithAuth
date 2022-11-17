@@ -17,6 +17,7 @@ const users_router_1 = require("./app/users/users.router");
 const auth_router_1 = require("./app/auth/auth.router");
 const logging_1 = require("./app/logging");
 const setupDB_1 = require("./DB/setupDB");
+// import os from "os";
 const PORT = process.env.PORT || 3000;
 const HOST = 'localhost';
 const app = (0, express_1.default)();
